@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 70%;
+    margin: auto;
+}
+header{
+    width: 100%;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+#s1{
+    display: flex;
+    width: 50%;
+}
+#s2{
+    width: 50%;
+    text-align: right;
+
+}
+
+header ul li{
+    display: inline;
+}
+#s1 img{
+    margin-right: 20px;
+}
+#s1 h1{
+    font-family: 'Lobster', cursive;
+    font-size: xx-large;
+    color: rgb(37, 36, 36);
+}
+
+#s1 h2{
+    color: gray;
+
+}
+header hr{
+    border-top: 5px dashed ;
+    color: gray;
+}
+
+#s3 h1{
+    font-family: 'Orelega One', cursive;
+    font-size: x-large;
+}
+
+#s3 h2{
+    font-size: medium;
+    color: lightgray;
+
+    
+}
+#s3{
+    float: left;
+
+    width: 50%;
+}
+#s4{
+    float: right;
+    margin-top: 10px;
+    color: lightgray;
+    text-align: right;
+    width: 50%;
+}
+#d1 {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#a1 {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 35px;
+
+}
+
+#a1 img{
+    width: 100%;
+}
+#a1 p{
+    margin-top: 15px;
+}
+
+#a2{
+    padding-top: 40px;
+    background-image: url(./img/list-bg.png);
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+
+    margin-bottom: 35px;
+
+}
+
+#as1{
+    width: 45%;
+    float: left;
+    margin: auto;
+    margin-left: 50px;
+}
+
+#as2{
+    width: 45%;
+    margin: auto;
+    float: right;
+}
+
+main hr{
+    border-top: 5px dashed ;
+    color: gray;
+    margin-bottom: 15px;
+}
+#d2{
+    display: flex;
+    margin-bottom: 35px;
+}
+#as3{
+    align-items: center;
+    display: flex;
+    width: 70%;
+}
+
+#as4{
+    align-self: flex-end;
+    width: 30%;
+    text-align: center;
+    
+
+}
+
+#as3 img{
+    margin-right: 10px;
+    
+}
+#as3 h3{
+    font-size: large;
+    color: rgb(78, 77, 77);
+}
+
+#as4 button{
+    height: 40px;
+    color: white;
+    border: solid rgb(182, 79, 79);
+    background-color: indianred;
+}
+
+footer div{
+    width: 100%;
+    text-align: center;
+}
+
+footer article{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    color: lightgray;
+}
